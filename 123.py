@@ -18,10 +18,12 @@ def main():
     t.up()
     t.backward(100)
     t.down()
-    t.color("green")
+    t.color("pink")
     draw_tree(75, t)
     screen.exitonclick()
 
 
 if __name__ == "__main__":
     main()
+
+    
